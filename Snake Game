@@ -9,16 +9,16 @@ black = (0, 0, 0)
 red = (255, 0, 0)
 blue = (0, 0, 255)
  
-dis_width = 800
-dis_height = 600
+dis_width = 1000
+dis_height = 800
  
 dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Snake Game by Edureka')
  
 clock = pygame.time.Clock()
  
-snake_block = 10
-snake_speed = 30
+snake_block = 15
+snake_speed = 35
  
 font_style = pygame.font.SysFont(None, 30)
  
